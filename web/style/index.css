@@ -48,3 +48,15 @@ nav ul a {
     background-color: aqua;
     padding: 0.5rem;
 }
+
+.second-sec {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.second-sec ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+}
