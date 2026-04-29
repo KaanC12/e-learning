@@ -78,3 +78,17 @@ nav ul a {
     background-color: blue;
     color: white;
 }
+
+
+.fourth-sec ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    list-style-type: none;
+}
+
+.fourth-sec ul li:last-child {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 1rem;
+}
