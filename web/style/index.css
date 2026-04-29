@@ -60,3 +60,21 @@ nav ul a {
     align-items: center;
     list-style-type: none;
 }
+
+.third-sec ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 2rem;
+}
+
+.third-sec ul li {
+    background-color: bisque;
+    padding: 0.2rem 0.5rem;
+    border-radius: 10px;
+}
+
+.third-sec ul li:first-child {
+    background-color: blue;
+    color: white;
+}
