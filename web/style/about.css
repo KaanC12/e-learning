@@ -1,0 +1,27 @@
+nav {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+nav ul a {
+    text-decoration: none;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    grid-column: 2;
+    list-style-type: none;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.login {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: flex-end;
+    grid-column: 3;
+    gap: 1.2rem;
+    margin-right: 1rem;
+}
