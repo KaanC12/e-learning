@@ -28,5 +28,24 @@ nav ul a {
 
 .register-form {
     display: flex;
-    
+    flex-direction: column;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;    
+}
+
+.register-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    padding: 1.5rem;
+}
+
+.buttons button {
+    font-size: medium;
+}
+
+.inputs input {
+    width: 20rem;
 }
