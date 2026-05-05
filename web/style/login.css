@@ -25,3 +25,34 @@ nav ul a {
     gap: 1.2rem;
     margin-right: 1rem;
 }
+
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-form form {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    border: 1px solid black;
+}
+
+.login-form form input {
+    width: 25rem;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.buttons button {
+    font-size: medium; 
+}
